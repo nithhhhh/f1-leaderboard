@@ -1,0 +1,159 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url'/images/background.jpg' no-repeat center center fixed;
+    background-size: cover;
+}
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.leaderboard {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.leaderboard h1 {
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.leaderboard table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.leaderboard th,
+.leaderboard td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    text-align: left;
+}
+
+.leaderboard th {
+    background: #444;
+}
+
+.leaderboard tr {
+    background: #222;
+}
+
+.leaderboard tr.top-1 {
+    background: #FF4C4C ;
+    color: #000;
+}
+
+.leaderboard tr.top-2 {
+    background: #FFB22C;
+    color: #000;
+}
+
+.leaderboard tr.top-3 {
+    background: #FFDE4D;
+    color: #000;
+}
+
+.leaderboard td img.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.recent-entry {
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.recent-entry p {
+    margin: 5px 0;
+}
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.add-score-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.popup-content input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
